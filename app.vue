@@ -1,6 +1,15 @@
+<script setup lang="ts">
+const appConfig = useAppConfig()
+const route = useRoute()
+var layout = 'default';
+
+if (route.path == '/guest') {
+    layout = "guest";
+}
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+    <NuxtLayout :name="layout">
+        <NuxtPage />
+    </NuxtLayout>
 </template>
