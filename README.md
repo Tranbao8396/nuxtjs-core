@@ -56,6 +56,38 @@ yarn build
 bun run build
 ```
 
+Build the application for production (static):
+
+```bash
+# npm
+npm run generate
+
+# pnpm
+pnpm generate
+
+# yarn
+yarn generate
+
+# bun
+bun run generate
+```
+
+Build the application for production (with spa and without prerendering):
+
+```bash
+# npm
+npm run build --spa
+
+# pnpm
+pnpm build --spa
+
+# yarn
+yarn build --spa
+
+# bun
+bun run build --spa
+```
+
 Locally preview production build:
 
 ```bash
