@@ -1,6 +1,10 @@
+<style lang="scss">
+@import url('~/assets/scss/block.scss');
+</style>
+
 <template>
-    <span>
+    <div class="block">
         Block :
         <slot />
-    </span>
+    </div>
 </template>
