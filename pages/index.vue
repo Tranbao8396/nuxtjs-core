@@ -5,5 +5,9 @@
         <Block>
             This is an auto-imported component
         </Block>
+
+        <NuxtLink to="/page">
+            Go to page
+        </NuxtLink>
     </div>
 </template>
